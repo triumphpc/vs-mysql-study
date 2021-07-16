@@ -37,4 +37,10 @@ as der;
 # +----------+-----+------+-------+
 
 
+#  Подсчет вчем значений меньше 5 в том числе и нулевых
+select sum(s.cnt) from (
+select count(*) cnt from members m
+left join orders o on o.USERID = m.USERID
+GROUP BY IFNULL(o.USERID, 'Y')
+HAVING cnt < 5) as s
 
