@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="46943343-01e8-4982-a444-df5f7fb9470f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ IsolationLevels.md" beforeDir="false" afterPath="$PROJECT_DIR$/1. IsolationLevels.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/11. Indexes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pgsql/2. Заморозка.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vs-mysql-stydy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vs-mysql-stydy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COUNT.sql" beforeDir="false" afterPath="$PROJECT_DIR$/2. COUNT.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXPLAIN.md" beforeDir="false" afterPath="$PROJECT_DIR$/4. EXPLAIN.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON_field_type.sql" beforeDir="false" afterPath="$PROJECT_DIR$/6. JSON_field_type.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NFs.md" beforeDir="false" afterPath="$PROJECT_DIR$/7. NFs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCALING.md" beforeDir="false" afterPath="$PROJECT_DIR$/9. SCALING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VARS.sql" beforeDir="false" afterPath="$PROJECT_DIR$/10. VARS.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples.sql" beforeDir="false" afterPath="$PROJECT_DIR$/3. examples.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generated_columns.sql" beforeDir="false" afterPath="$PROJECT_DIR$/5. generated_columns.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partitions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/8. partitions.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. IsolationLevels.md" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/1. IsolationLevels.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. VARS.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/10. VARS.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2. COUNT.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/2. COUNT.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. examples.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/3. examples.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. EXPLAIN.md" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/4. EXPLAIN.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. generated_columns.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/5. generated_columns.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6. JSON_field_type.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/6. JSON_field_type.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. NFs.md" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/7. NFs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8. partitions.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/8. partitions.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9. SCALING.md" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/9. SCALING.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,30 +28,82 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="minikube" />
     <option name="namespace" value="default" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1ofVKFH54dEmIT2EaEmSTZG5W1j" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="ssh.settings" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/triumphpc/Devel/vs-mysql-study"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mysql" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update examples sqls" />
+    <option name="LAST_COMMIT_MESSAGE" value="update examples sqls" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>
